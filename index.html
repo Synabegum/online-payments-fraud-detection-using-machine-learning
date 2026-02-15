@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Payment Fraud Detection</title>
+</head>
+<body>
+    <h2>Online Payment Fraud Detection</h2>
+
+    <form action="/predict" method="post">
+        <input type="text" name="step" placeholder="Step" required><br><br>
+        <input type="text" name="type" placeholder="Type (0-4)" required><br><br>
+        <input type="text" name="amount" placeholder="Amount" required><br><br>
+        <input type="text" name="oldbalanceOrg" placeholder="Old Balance Org" required><br><br>
+        <input type="text" name="newbalanceOrig" placeholder="New Balance Orig" required><br><br>
+        <input type="text" name="oldbalanceDest" placeholder="Old Balance Dest" required><br><br>
+        <input type="text" name="newbalanceDest" placeholder="New Balance Dest" required><br><br>
+        <input type="text" name="isFlaggedFraud" placeholder="Is Flagged Fraud (0 or 1)" required><br><br>
+
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
