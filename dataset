@@ -1,0 +1,13 @@
+## 📂 Dataset Information
+
+Due to GitHub file size limitations, the dataset is not included in this repository.
+
+You can download the dataset from Kaggle:
+
+[Online Payments Fraud Detection Dataset](https://www.kaggle.com/datasets/ealaxi/paysim1)
+
+After downloading:
+
+- Extract the ZIP file
+- Rename the file to `fraud.csv`
+- Place it inside the `data/` folder
